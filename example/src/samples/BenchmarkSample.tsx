@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { CanvasParticleEmitter } from 'react-native-particle-emitter';
-import type { CanvasEmitterConfig } from 'react-native-particle-emitter';
+import { CanvasParticleEmitter } from 'react-particle-emitter';
+import type { CanvasEmitterConfig } from 'react-particle-emitter';
 import { ActionButton, MeasuredView, theme } from '../ui';
 
 const MAX_EMITTERS = 10;

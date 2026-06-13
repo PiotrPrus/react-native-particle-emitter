@@ -1,8 +1,8 @@
 import React, { useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useImage } from '@shopify/react-native-skia';
-import { CanvasParticleEmitter, easeOutCubic } from 'react-native-particle-emitter';
-import type { CanvasEmitterConfig, EdgeBehavior } from 'react-native-particle-emitter';
+import { CanvasParticleEmitter, easeOutCubic } from 'react-particle-emitter';
+import type { CanvasEmitterConfig, EdgeBehavior } from 'react-particle-emitter';
 import { Chip, ControlPanel, theme } from '../ui';
 
 const BEHAVIORS: { label: string; behavior: EdgeBehavior }[] = [

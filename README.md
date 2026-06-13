@@ -1,4 +1,4 @@
-# react-native-particle-emitter
+# react-particle-emitter
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
 ![Platforms: iOS · Android · Web](https://img.shields.io/badge/platforms-iOS%20·%20Android%20·%20Web-lightgrey)
@@ -36,7 +36,7 @@ This is a port of the Compose Multiplatform [ParticleEmitter](https://github.com
 ## Installation
 
 ```sh
-npm install react-native-particle-emitter @shopify/react-native-skia react-native-reanimated
+npm install react-particle-emitter @shopify/react-native-skia react-native-reanimated
 ```
 
 `@shopify/react-native-skia` (>= 1.0) and `react-native-reanimated` (>= 3.0) are peer dependencies — follow their installation guides (Reanimated needs its Babel plugin, and Reanimated 4 also needs `react-native-worklets`).
@@ -47,7 +47,7 @@ npm install react-native-particle-emitter @shopify/react-native-skia react-nativ
 
 ```tsx
 import { StyleSheet } from 'react-native';
-import { CanvasParticleEmitter } from 'react-native-particle-emitter';
+import { CanvasParticleEmitter } from 'react-particle-emitter';
 
 <CanvasParticleEmitter
   style={StyleSheet.absoluteFill}
@@ -71,7 +71,7 @@ Distances are in density-independent points (standard RN units), durations in mi
 
 ```tsx
 import { Text } from 'react-native';
-import { ParticlesEmitter } from 'react-native-particle-emitter';
+import { ParticlesEmitter } from 'react-particle-emitter';
 
 <ParticlesEmitter
   style={StyleSheet.absoluteFill}

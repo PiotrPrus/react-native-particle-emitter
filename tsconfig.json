@@ -12,7 +12,7 @@
     "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "react-native-particle-emitter": ["./src/index.ts"],
+      "react-particle-emitter": ["./src/index.ts"],
       "@shopify/react-native-skia": ["./example/node_modules/@shopify/react-native-skia"],
       "@shopify/react-native-skia/*": ["./example/node_modules/@shopify/react-native-skia/*"],
       "react-native-reanimated": ["./example/node_modules/react-native-reanimated"],

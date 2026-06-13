@@ -1,8 +1,8 @@
 import React, { useMemo, useRef, useState } from 'react';
 import { PanResponder, StyleSheet, Text, View } from 'react-native';
 import { useImage } from '@shopify/react-native-skia';
-import { CanvasParticleEmitter, easeOutCubic } from 'react-native-particle-emitter';
-import type { CanvasEmitterConfig } from 'react-native-particle-emitter';
+import { CanvasParticleEmitter, easeOutCubic } from 'react-particle-emitter';
+import type { CanvasEmitterConfig } from 'react-particle-emitter';
 import { ControlPanel, LabeledSlider, MeasuredView, theme } from '../ui';
 
 /**

@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { CanvasParticleEmitter } from 'react-native-particle-emitter';
-import type { CanvasEmitterConfig } from 'react-native-particle-emitter';
+import { CanvasParticleEmitter } from 'react-particle-emitter';
+import type { CanvasEmitterConfig } from 'react-particle-emitter';
 import { ControlPanel, MeasuredView, SwitchRow, theme } from '../ui';
 
 const RING_DIAMETER = 180;

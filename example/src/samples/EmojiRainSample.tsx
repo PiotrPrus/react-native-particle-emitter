@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import { matchFont } from '@shopify/react-native-skia';
-import { CanvasParticleEmitter } from 'react-native-particle-emitter';
-import type { CanvasEmitterConfig, ParticleShape } from 'react-native-particle-emitter';
+import { CanvasParticleEmitter } from 'react-particle-emitter';
+import type { CanvasEmitterConfig, ParticleShape } from 'react-particle-emitter';
 import { rasterizeEmoji } from '../shapes';
 import { ActionButton, ControlPanel, LabeledSlider, MeasuredView, theme } from '../ui';
 

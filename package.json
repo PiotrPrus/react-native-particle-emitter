@@ -1,6 +1,6 @@
 {
-  "name": "react-native-particle-emitter",
-  "version": "0.1.0",
+  "name": "react-particle-emitter",
+  "version": "0.0.1",
   "description": "Physics-based particle emitter for React Native, rendered with native Skia. A port of the Compose Multiplatform ParticleEmitter library.",
   "main": "src/index.ts",
   "types": "src/index.ts",

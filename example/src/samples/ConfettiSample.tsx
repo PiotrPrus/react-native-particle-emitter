@@ -8,7 +8,7 @@ import Animated, {
   withRepeat,
   withTiming,
 } from 'react-native-reanimated';
-import { MultiEmitter } from 'react-native-particle-emitter';
+import { MultiEmitter } from 'react-particle-emitter';
 import { ActionButton } from '../ui';
 
 /**

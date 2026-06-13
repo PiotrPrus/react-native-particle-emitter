@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { PanResponder, StyleSheet, Text, View } from 'react-native';
 import { Canvas, Group, Path, Rect } from '@shopify/react-native-skia';
-import { CanvasParticleEmitter, easeOutCubic } from 'react-native-particle-emitter';
-import type { CanvasEmitterConfig, ParticleShape } from 'react-native-particle-emitter';
+import { CanvasParticleEmitter, easeOutCubic } from 'react-particle-emitter';
+import type { CanvasEmitterConfig, ParticleShape } from 'react-particle-emitter';
 import { buildStarPath } from '../shapes';
 import { ControlPanel, LabeledSlider, MeasuredView, theme } from '../ui';
 

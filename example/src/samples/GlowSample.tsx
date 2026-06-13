@@ -8,7 +8,7 @@ import Animated, {
   withRepeat,
   withTiming,
 } from 'react-native-reanimated';
-import { ParticlesEmitter } from 'react-native-particle-emitter';
+import { ParticlesEmitter } from 'react-particle-emitter';
 
 /**
  * Port of GlowSample.kt — element particles drifting slowly from the center,

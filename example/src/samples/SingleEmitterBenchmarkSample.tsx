@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { CanvasParticleEmitter } from 'react-native-particle-emitter';
-import type { CanvasEmitterConfig } from 'react-native-particle-emitter';
+import { CanvasParticleEmitter } from 'react-particle-emitter';
+import type { CanvasEmitterConfig } from 'react-particle-emitter';
 import { ControlPanel, LabeledSlider, MeasuredView } from '../ui';
 
 const MAX_STEPS = 10;
