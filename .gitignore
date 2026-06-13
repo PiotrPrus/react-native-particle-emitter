@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# build output
+lib/
+dist/
+build/
+*.tsbuildinfo
+
+# expo / metro
+.expo/
+.metro-health-check*
+
+# logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# os / editor
+.DS_Store
+*.pem
+*.swp
+.idea/
+.vscode/
+
+# local agent / tooling config
+.claude/

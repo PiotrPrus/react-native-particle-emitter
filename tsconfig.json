@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "lib": ["ES2020", "DOM"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "react-native-particle-emitter": ["./src/index.ts"],
+      "@shopify/react-native-skia": ["./example/node_modules/@shopify/react-native-skia"],
+      "@shopify/react-native-skia/*": ["./example/node_modules/@shopify/react-native-skia/*"],
+      "react-native-reanimated": ["./example/node_modules/react-native-reanimated"],
+      "react-native": ["./example/node_modules/react-native"],
+      "react": ["./example/node_modules/@types/react"],
+      "react/jsx-runtime": ["./example/node_modules/@types/react/jsx-runtime"]
+    }
+  },
+  "include": ["src", "example"]
+}

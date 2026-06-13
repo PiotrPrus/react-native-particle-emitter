@@ -1,0 +1,48 @@
+{
+  "name": "react-native-particle-emitter",
+  "version": "0.1.0",
+  "description": "Physics-based particle emitter for React Native, rendered with native Skia. A port of the Compose Multiplatform ParticleEmitter library.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "example": "npm --prefix example run web"
+  },
+  "keywords": [
+    "react-native",
+    "skia",
+    "particles",
+    "particle-emitter",
+    "confetti",
+    "animation",
+    "physics",
+    "reanimated",
+    "expo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrPrus/react-native-particle-emitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PiotrPrus/react-native-particle-emitter/issues"
+  },
+  "homepage": "https://github.com/PiotrPrus/react-native-particle-emitter#readme",
+  "author": "Piotr Prus <piotr@tilt.app>",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@shopify/react-native-skia": ">=1.0.0",
+    "react": "*",
+    "react-native": "*",
+    "react-native-reanimated": ">=3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.0"
+  }
+}
